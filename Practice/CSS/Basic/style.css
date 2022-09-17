@@ -1,0 +1,30 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    width:30em;
+    height: 40em;
+    background-color: black;
+    position: sticky;
+    top: 0em;
+    right: 0em
+}
+.bady {
+
+
+}
+.bg {
+height: 45em;
+width: 70em;
+position: sticky;
+top: 0px;
+z-index: -1;
+}
+.about {
+    background-color: white;
+}
