@@ -1,0 +1,179 @@
+/* universal style */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* main div style */
+.main {
+  display: flex;
+  flex-flow: row;
+}
+
+/* style of the header section */
+.header {
+  background-color: #333;
+  padding: 1em;
+  z-index: -1;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+}
+
+.header img {
+  width: 8em;
+  height: 8em;
+  border: gray 0.5em solid;
+  border-radius: 10em;
+  margin-left: 2em;
+}
+.header h1 {
+  color: whitesmoke;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  text-align: center;
+}
+.contact-links {
+  margin-top: 1em;
+  text-align: center;
+}
+.contact-links a {
+  margin: 0.3em;
+  border: gray 0.5em solid;
+  border-radius: 10em;
+  color: whitesmoke;
+}
+.nav-bar {
+}
+.nav-bar ul {
+  list-style: none;
+  list-style-position: outside;
+}
+.nav-bar ul li {
+  margin-top: 2em;
+}
+.nav-bar ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.nav-bar ul li span {
+  font-size: larger;
+  margin-left: 0.5em;
+}
+
+.copyrigt {
+  margin-top: 3em;
+  text-align: center;
+}
+.copyrigt p {
+  color: whitesmoke;
+}
+
+/* styling body */
+.web {
+  width: 80em;
+}
+.web video {
+  width: 80em;
+  position: sticky;
+  top: 0px;
+  z-index: -1;
+}
+.web div {
+  background-color: whitesmoke;
+  padding: 2em;
+}
+
+/* about section */
+.about {
+}
+.about-div-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+.about-div-2 {
+  margin-left: 2em;
+}
+.about-div-2 h2 {
+  color: rgb(0, 0, 91);
+}
+.about-div-2 p {
+  margin-top: 1em;
+  font-size: larger;
+}
+.about-div-1 img {
+  width: 25em;
+}
+.headings {
+  color: rgb(0, 0, 91);
+}
+.line {
+  background-color: dodgerblue;
+  width: 3em;
+  height: 0.3em;
+  border: none;
+  border-radius: 1em;
+}
+.detail {
+  margin-top: 1em;
+  font-size: larger;
+  text-align: justify;
+}
+.about-div-3 {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about-div-3 ul {
+  list-style: none;
+  margin-bottom: 2em;
+}
+.about-div-3 ul li {
+  margin-top: 2em;
+}
+.about-div-3 ul li i {
+  color: dodgerblue;
+  margin-right: 1em;
+}
+
+/* styling for fact section */
+.fact {
+  margin-top: 5em;
+}
+.fact-div-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.fact-div-1 div i {
+  color: dodgerblue;
+}
+.fact-div-1 div span {
+  font-size: 2em;
+  margin-left: .5em;
+  font-weight: 600;
+}
+.fact-div-1 div p {
+  margin-top: 1em;
+}
+
+/*skill section */
+.skills{
+  margin-top: 5em;
+}
+.skill-div-1 {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+.skill-div-1 div {
+  border: dodgerblue .5em solid;
+  border-radius: 10em;
+}
+.skill-div-1 div p {
+  font-size: larger;
+  text-align: center;
+}
+
