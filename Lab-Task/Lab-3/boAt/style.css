@@ -43,3 +43,11 @@ h6{
 .list{
   list-style: none;
 }
+.cat-width{
+  width: 50rem;
+}
+@media only screen and (max-width: 993px) {
+  .cat-width{
+    width: auto;
+  }
+}
