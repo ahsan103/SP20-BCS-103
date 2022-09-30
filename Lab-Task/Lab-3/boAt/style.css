@@ -1,0 +1,45 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  margin: 3em 0rem 3em 0rem;
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: 600;
+}
+h5{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: medium;
+}
+h6{
+  font-weight: bold;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll:hover {
+  cursor: pointer;
+}
+.scroll {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.card-bg{
+    background-color: #e3e3e3;;
+}
+.cat{
+  width: 7rem;
+  font-size: small;
+  font-weight: 600;
+}
+.font{
+  font-size: .8rem;
+}
+.list{
+  list-style: none;
+}
