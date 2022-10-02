@@ -46,6 +46,15 @@ h6{
 .cat-width{
   width: 50rem;
 }
+.items{
+  font-size: smaller;
+  border-left: 1px lightgray solid;
+  margin-left: 1rem;
+}
+.items li {
+  margin-top: 1rem;
+  margin-left: -1rem;
+}
 @media only screen and (max-width: 993px) {
   .cat-width{
     width: auto;
