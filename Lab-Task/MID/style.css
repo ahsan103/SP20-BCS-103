@@ -1,0 +1,24 @@
+#navbar{
+    border-bottom: 5px solid red;
+}
+.car{
+    width: 65rem;
+}
+.navigation{
+    position: sticky;
+  top: 0em;
+}
+.c-body{
+    margin: 2rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+.search-bar{
+    width: 12rem;
+    margin-left: auto;
+    padding: .5rem;
+    display: none;
+}
+.display{
+    display: flex;
+}
